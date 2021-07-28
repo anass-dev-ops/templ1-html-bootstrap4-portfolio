@@ -1,0 +1,32 @@
+/*-------------------
+==== Golbal CSS =====
+-------------------*/
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #1abc9c;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/*-------------------
+==== Start Navbar ===
+-------------------*/
+.navbar {
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-weight: 800;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.4rem;
+}
+
+.navbar .nav-item a {
+    font-size: 0.8rem;
+    margin: 0 10px;
+}
+
+/*-------------------
+==== End Navbar ===
+-------------------*/
