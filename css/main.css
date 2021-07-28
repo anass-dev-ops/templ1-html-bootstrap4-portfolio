@@ -14,16 +14,16 @@ body {
 .navbar {
     background-color: var(--primary-color);
     text-transform: uppercase;
-    padding: 20px 0;
+    padding: 24px 0;
     font-weight: 800;
 }
 
-.navbar .navbar-brand {
-    font-size: 1.4rem;
+.navbar-dark .navbar-brand {
+    font-size: 1.6rem;
 }
 
-.navbar .nav-item a {
-    font-size: 0.8rem;
+.navbar-dark .nav-item a {
+    font-size: 1rem;
     margin: 0 10px;
 }
 
