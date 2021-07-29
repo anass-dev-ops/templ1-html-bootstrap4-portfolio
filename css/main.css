@@ -2,8 +2,10 @@
 ==== Golbal CSS =====
 -------------------*/
 :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #1abc9c;
+    --primary-color: #5a0000;
+    --secondary-color: #b71c1c;
+    --color-1: #2e0000;
+    --color-2: #7e1414;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -209,7 +211,7 @@ body {
 }
 
 .contact-me button:hover {
-    background-color: #148d75;
+    background-color: var(--color-2);
 }
 /*-----------------------
 === End Contact Me ===
@@ -246,7 +248,7 @@ body {
 ==== Start Sub Footer ====
 -----------------------*/
 .sub-footer {
-    background-color: #141b23;
+    background-color: var(--color-1);
     color: #FFF;
     padding: 20px 0;
 }
