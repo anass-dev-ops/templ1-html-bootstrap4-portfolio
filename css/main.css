@@ -30,3 +30,45 @@ body {
 /*-------------------
 ==== End Navbar ===
 -------------------*/
+/*-------------------
+==== Start Home ===
+-------------------*/
+.home {
+    background-color: var(--secondary-color);
+    height: 100vh;
+}
+.home img {
+    width: 250px;
+    margin-bottom: 15px;
+}
+.home h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+.home i {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.home .divider {
+    display: inline-block;
+    width: 150px;
+    height: 5px;
+    background-color: #fff;
+    margin: 0 10px 22px 10px;
+    border-radius: 4px;
+}
+.home p {
+    color: #fff;
+    font-size: 1.4rem;
+}
+/*-------------------
+==== End Home ===
+-------------------*/
+
+.portfolio {
+
+}
