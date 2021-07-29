@@ -7,6 +7,7 @@
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    height: 12000px;
 }
 /*-------------------
 ==== Start Navbar ===
@@ -69,6 +70,37 @@ body {
 ==== End Home ===
 -------------------*/
 
-.portfolio {
+/*-------------------
+== Start Portfolio ==
+-------------------*/
 
+.portfolio {
+    padding: 80px 0;
 }
+
+.portfolio h2 {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.portfolio .divider {
+    display: inline-block;
+    width: 115px;
+    height: 4px;
+    background-color: var(--primary-color);
+    margin: 0 10px 22px 10px;
+    border-radius: 4px;
+}
+
+.portfolio img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/*-------------------
+== End Portfolio ==
+-------------------*/
